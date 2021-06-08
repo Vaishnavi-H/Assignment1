@@ -220,43 +220,47 @@ span{
 }
 
 #word9{
-    margin-top:30px;
+    margin-top:10px;
     margin-left: 50px;
     font-size: 15px;
-    position: relative;
+    position: absolute;
 }
 #no7{
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left:220px;
-    position:absolute;
+    position: absolute;
 }
 #word10{
-    margin-top:20px;
+    margin-top:60px;
     margin-left: 50px;
     font-size: 15px;
+    position: absolute;
 }
 #no8{
-    margin-bottom:100px;
+    margin-top:60px;
     margin-left:220px;
     position:absolute;
+   
 }
 #word11{
-    margin-top:20px;
+    margin-top:110px;
     margin-left: 50px;
     font-size: 15px;
+    position: absolute;
 }
 #no9{
-    margin-bottom:70px;
+    margin-top:110px;
     margin-left:220px;
     position:absolute;
 }
 #word12{
-    margin-top:20px;
+    margin-top:160px;
     margin-left: 50px;
     font-size: 15px;
+    position: absolute;
 }
 #no10{
-    margin-bottom:20px;
+    margin-top:160px;
     margin-left:220px;
     position:absolute;
 }
