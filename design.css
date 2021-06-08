@@ -1,0 +1,83 @@
+.box{
+    width:55%;
+    height:640px;
+    background-color:rgb(209, 233, 204);
+    margin-left:280px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box2{
+    width:280px;
+    height:550px;
+    position: absolute;
+    background-color: white;
+    margin:30px;
+    margin-left:40px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 25px rgb(179, 174, 174);
+}
+.box3{
+    width:280px;
+    height:550px;
+    position: absolute;
+    background-color: white;
+    margin-left: 390px;
+    margin-top: 70px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 25px rgb(179, 174, 174);
+    
+}
+.box4{
+    width: 250px;
+    height: 160px;
+    background-color: rgb(236, 163, 163);
+    margin-top: 100px;
+    border-radius: 10px;
+    margin-left: 14px;
+}
+#no{
+    color: grey;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin:20px;
+    position: absolute;
+}
+#wallet{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 13px;
+     font-weight: 550;
+     position: absolute;
+     margin-left:110px;
+     margin-top: 20px;
+     
+}
+#word1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    position: absolute;
+    margin-top:55px;
+    margin-left:20px;
+   
+}
+#btn1{
+    font-family: Arial, Helvetica, sans-serif;
+    border:7px solid white;
+    background-color: white;
+    position:absolute;
+    margin-top:95px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: 550;
+}
+.box5{
+    width:250px;
+    height:70px;
+    background-color: rgb(168, 224, 168);
+    position: absolute;
+    margin-top:10px;
+    margin-left:14px;
+    border-radius: 5px;
+}
