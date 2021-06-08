@@ -1,6 +1,9 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .box{
     width:55%;
-    height:640px;
+    height:650px;
     background-color:rgb(209, 233, 204);
     margin-left:280px;
     margin-top: 20px;
@@ -10,7 +13,7 @@
 }
 .box2{
     width:280px;
-    height:550px;
+    height:570px;
     position: absolute;
     background-color: white;
     margin:30px;
@@ -20,13 +23,14 @@
 }
 .box3{
     width:280px;
-    height:550px;
+    height:570px;
     position: absolute;
     background-color: white;
     margin-left: 390px;
     margin-top: 70px;
     border-radius: 30px;
     box-shadow: 8px 8px 25px rgb(179, 174, 174);
+    
     
 }
 .box4{
@@ -39,13 +43,12 @@
 }
 #no{
     color: grey;
-    font-family:  Arial, Helvetica, sans-serif;
     font-size: 13px;
     margin:20px;
     position: absolute;
 }
 #wallet{
-     font-family: Arial, Helvetica, sans-serif;
+   
      font-size: 13px;
      font-weight: 550;
      position: absolute;
@@ -54,7 +57,7 @@
      
 }
 #word1{
-    font-family: Arial, Helvetica, sans-serif;
+    
     font-size: 16px;
     font-weight: 550;
     position: absolute;
@@ -63,7 +66,7 @@
    
 }
 #btn1{
-    font-family: Arial, Helvetica, sans-serif;
+   
     border:7px solid white;
     background-color: white;
     position:absolute;
@@ -81,3 +84,182 @@
     margin-left:14px;
     border-radius: 5px;
 }
+#word2{
+    font-size: 11px;
+    margin-top: 15px;
+    margin-left:70px;
+    position: relative;
+}
+#no2{
+ 
+    font-size: 13px;
+    margin-top:1px;
+    margin-left:70px;
+    position: absolute;
+}
+#no3{
+    position: absolute;
+    color: grey;
+    font-size: 11px;
+    margin-left:125px;
+    margin-top: 0px;
+}
+#word3{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 20px;
+
+}
+#btn2{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 180px;
+    font-size:12px;
+    color: rgba(219, 184, 184, 0.562);
+    background:black;
+    padding: 11px 28px;
+    text-align:center;
+    border: none;
+    border-radius: 30px;
+}
+#word4{
+    font-size:12px;
+    position:absolute;
+    margin-top: 150px;
+    margin-left:24px;
+}
+
+#word5{
+    position: absolute;
+    margin-top:180px;
+    margin-left:60px;
+    font-size:15px;
+    
+}
+span{
+    font-size:12px;
+    color:grey;
+}
+#no4{
+    position: absolute;
+    margin-top:180px;
+    margin-left:190px;
+}
+.box6{
+    width:28px;
+    height:30px;
+    background-color: rgb(221, 120, 120);
+    position: absolute;
+    border-radius: 50%;
+    margin-top:180px;
+    margin-left:20px;
+}
+#word6{
+    position: absolute;
+    margin-top:230px;
+    margin-left:60px;
+    font-size: 15px;
+    
+}
+span{
+    font-size:12px;
+    color:rgb(134, 125, 125);
+}
+#no5{
+    position: absolute;
+    margin-top:230px;
+    margin-left:190px;
+}
+.box7{
+    width:28px;
+    height:30px;
+    background-color: rgb(168, 224, 168);
+    position: absolute;
+    border-radius: 50%;
+    margin-top:230px;
+    margin-left:20px;
+}
+.box8{
+    background-color: rgb(215, 179, 248);
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+    height:40%;
+}
+#word7{
+    position: absolute;
+    margin-top:90px;
+    margin-left:30px;
+    font-size: 12px;
+    
+}
+#no6{
+    position: absolute;
+    margin-top:108px;
+    margin-left:30px;
+    font-size: 20px;
+    font-weight: 900;
+}
+#btn3{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 7px;
+    font-size:10px;
+    color: black;
+    background-color: rgb(215, 179, 248);
+    padding: 15px 100px;
+    padding-left:40px;
+    border-radius: 10px;
+    border:1px solid rgba(146, 135, 135, 0.562);
+    
+}
+#word8{
+    margin-top:20px;
+    margin-left: 20px;
+    font-weight: 900;
+    position: relative;
+}
+
+#word9{
+    margin-top:30px;
+    margin-left: 50px;
+    font-size: 15px;
+    position: relative;
+}
+#no7{
+    margin-top: 30px;
+    margin-left:220px;
+    position:absolute;
+}
+#word10{
+    margin-top:20px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+#no8{
+    margin-bottom:100px;
+    margin-left:220px;
+    position:absolute;
+}
+#word11{
+    margin-top:20px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+#no9{
+    margin-bottom:70px;
+    margin-left:220px;
+    position:absolute;
+}
+#word12{
+    margin-top:20px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+#no10{
+    margin-bottom:20px;
+    margin-left:220px;
+    position:absolute;
+}
+
+
+
