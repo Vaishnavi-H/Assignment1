@@ -187,14 +187,14 @@ span{
 }
 #word7{
     position: absolute;
-    margin-top:90px;
+    margin-top:100px;
     margin-left:30px;
     font-size: 12px;
     
 }
 #no6{
     position: absolute;
-    margin-top:108px;
+    margin-top:115px;
     margin-left:30px;
     font-size: 20px;
     font-weight: 900;
@@ -220,49 +220,57 @@ span{
 }
 
 #word9{
-    margin-top:10px;
+    margin-top:20px;
     margin-left: 50px;
     font-size: 15px;
     position: absolute;
 }
 #no7{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left:220px;
     position: absolute;
 }
 #word10{
-    margin-top:60px;
+    margin-top:70px;
     margin-left: 50px;
     font-size: 15px;
     position: absolute;
 }
 #no8{
-    margin-top:60px;
+    margin-top:70px;
     margin-left:220px;
     position:absolute;
    
 }
 #word11{
-    margin-top:110px;
+    margin-top:120px;
     margin-left: 50px;
     font-size: 15px;
     position: absolute;
 }
 #no9{
-    margin-top:110px;
+    margin-top:120px;
     margin-left:220px;
     position:absolute;
 }
 #word12{
-    margin-top:160px;
+    margin-top:170px;
     margin-left: 50px;
     font-size: 15px;
     position: absolute;
 }
 #no10{
-    margin-top:160px;
+    margin-top:170px;
     margin-left:220px;
     position:absolute;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
 }
 
 
