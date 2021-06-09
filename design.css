@@ -206,7 +206,7 @@ span{
     font-size:10px;
     color: black;
     background-color: rgb(215, 179, 248);
-    padding: 15px 100px;
+    padding: 15px 90px;
     padding-left:40px;
     border-radius: 10px;
     border:1px solid rgba(146, 135, 135, 0.562);
@@ -269,9 +269,91 @@ img{
     height: 50px;
     border-radius: 50%;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
     position: absolute;
 }
+.box9{
+    width:20px;
+    height:20px;
+    position: absolute;
+    background-color: white;
+    margin-left:185px;
+    margin-top: 20px;
+    border-radius: 3px;
 
+}
+.box10{
+    width:40px;
+    height:35px;
+    position: absolute;
+    background-color: white;
+    margin-left:20px;
+    margin-top: 20px;
+    border-radius: 8px;
 
-
+}
+#name{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 90px;
+    font-size: 15px;
+    
+}
+#b{
+margin-left: 60px;
+margin-top: 10px;
+position: absolute;
+color:rgba(7, 1, 1, 0.534);
+}
+#a{
+    position: absolute;
+    color:rgb(20, 12, 12);
+    padding-left: 3px;
+}
+#c{
+    position: absolute;
+    color:rgb(20, 12, 12);
+    padding-left: 10px;
+    padding-top: 6px;
+}
+#d{
+    margin-left: 5px;
+    
+    position: absolute;
+    color:white; 
+}
+.glyphicon{
+    position: absolute;
+    color:black;
+    font-size: 15px;
+    padding-left: 7px;
+    padding-top: 5px;
+}
+#e{
+    color:black;
+    margin-right: 0px;
+    
+}
+.box11{
+    width:28px;
+    height:30px;
+    background-color: rgb(71, 61, 161);
+    position: absolute;
+    border-radius: 50%;
+    margin-top:70px;
+    margin-left:10px;
+}
+#logo{
+    color:white;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+#f{
+   position: absolute;
+    margin-top:73px;
+    margin-left: 10px;
+    color:rgb(238, 238, 74);
+  
+  
