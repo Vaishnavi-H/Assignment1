@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+          Learn Javascript
+        </title>
+    </head>
+    <body>
+        <h2>Javascript</h2>
+        <button onclick="document.getElementById('demo').innerHTML = Date()">Click me for date and time</button>
+        <h3 id="demo">Hello world</h3>
+        <h3 id="demo1">Hello world</h3>
+        <button onclick="document.getElementById('image').src='profile.jpg'">profile</button><br>
+        <img id="image" style="width:300px"> <br>
+        <button onclick="document.write('all deleted.')">Document.write delete all html</button>                                                                                                                                                                                                             
+       <br><br> <button onclick="window.alert('files added')">Alert box</button>
+       <br><br> <button onclick="window.print()">Print this page</button>
+       <br><br><button onclick="function1()">click for style change</button>
+       <p id="demo2"></p>
+       <p id="demo3"></p>
+       <h3>Var ReDeclare its Block level element</h3>
+       <p id="demo4">Redeclare</p><br>
+       <h3>let not Redeclare</h3>
+       <p id="demo5">Let Reclare</p>
+       <p id="demo6"></p>
+       <p id="demo7"></p>
+       <p id="demo8"></p>
+       <p id="demo9"></p>
+       <p id="demo10"></p>
+    </body>
+    <script>
+        document.getElementById("demo10").innerHTML ="The height is " + toheight(77,200) + "cm";
+        function toheight(h2,h1) {
+        return h1-h2;
+        }
+        var a = 10;
+               {  
+                var a =2;
+               }
+        document.getElementById("demo4").innerHTML = a;
+
+        var a = 10;
+               {  
+                 let a =2;
+               }
+        document.getElementById("demo5").innerHTML = a;
+        var i=2;
+        for(var i=0;i<12;i++){
+        }
+        document.getElementById("demo6").innerHTML= i;
+        var i=2;
+        for(let i=0;i<12;i++){
+        }
+        document.getElementById("demo7").innerHTML= i;
+        let j = 5;
+        for (let j = 0; j < 10; j++) {
+  
+        }
+        document.getElementById("demo8").innerHTML = j;
+        try {
+        const PI = 3.141592653589793;
+         PI = 3.14;
+          }
+          catch (err) {
+                 document.getElementById("demo9").innerHTML = err;
+            }
+       
+        var carname="BMW";
+        fun2();
+        function function1() {
+            document.getElementById('demo').style.color="red";
+           document.getElementById('demo').style.fontSize="25px";
+           var x;var y;
+           x=100; y=2;
+           document.getElementById('demo1').innerHTML=x*y;
+           
+        }
+        function fun2() {
+            document.getElementById('demo2').innerHTML="global scope in var   "+carname;
+            var Lastname="John";
+            document.getElementById('demo3').innerHTML= "function scope  in var  "+Lastname;
+        }
+        document.getElementById('demo3').innerHTML=Lastname;
+        
+        
+        
+
+    </script>
+</html>
